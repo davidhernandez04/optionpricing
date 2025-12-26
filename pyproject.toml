@@ -17,6 +17,7 @@ dependencies = [
     "plotly>=5.18.0",
     "matplotlib>=3.8.0",
     "pydantic>=2.5.0",
+    "streamlit>=1.30.0",
 ]
 
 [project.optional-dependencies]
