@@ -1,6 +1,11 @@
 # Options Pricing Suite 📈
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://optionspricingsuite.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-optionpricing-blue?logo=github)](https://github.com/davidhernandez04/optionpricing)
+
 A professional Python package for options pricing and Greeks calculation, featuring multiple pricing models, real market data integration, and a beautiful CLI interface.
+
+## 🌐 [**Try the Live Web App!**](https://optionspricingsuite.streamlit.app) 🚀
 
 ## Features ✨
 
