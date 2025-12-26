@@ -1,0 +1,36 @@
+[project]
+name = "optionpricing"
+version = "0.1.0"
+description = "Professional options pricing suite with Black-Scholes, Binomial Tree, and Monte Carlo models"
+readme = "README.md"
+authors = [
+    { name = "David Hernandez", email = "davidhcerecero@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "pandas>=2.1.0",
+    "yfinance>=0.2.32",
+    "typer>=0.9.0",
+    "rich>=13.7.0",
+    "plotly>=5.18.0",
+    "matplotlib>=3.8.0",
+    "pydantic>=2.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.12.0",
+    "ruff>=0.1.0",
+    "mypy>=1.7.0",
+]
+
+[project.scripts]
+optionpricing = "optionpricing.cli.commands:app"
+
+[build-system]
+requires = ["uv_build>=0.9.15,<0.10.0"]
+build-backend = "uv_build"
